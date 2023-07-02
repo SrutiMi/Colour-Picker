@@ -1,10 +1,30 @@
 body{
-  margin:0;
- 
+  background-color: rgb(230, 239, 239);
 }
 .js-button-center{
   display:flex;
-  color:black;
-  margin:0 auto;
-  
+  justify-content:center;
+  align-items:center;
+  margin:20 auto;
+  height:100vh;/*vh->means viewport height  */
+  flex-direction: column;/*to position the elements in column */
+}
+
+.js-click ,.js-text{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color:purple;
+  color: white;
+  border: none;
+  font-family: "Roboto";
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.js-click:hover {
+  background-color: rgb(217, 94, 217);
+}
+.js-text{
+    background-color: rgb(92, 57, 149);
+     
 }
