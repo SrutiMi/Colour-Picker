@@ -1,0 +1,10 @@
+body{
+  margin:0;
+ 
+}
+.js-button-center{
+  display:flex;
+  color:black;
+  margin:0 auto;
+  
+}
